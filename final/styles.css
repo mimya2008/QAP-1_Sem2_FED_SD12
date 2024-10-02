@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+  }
+  
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+.flex-container {
+    width: 1000px;
+    background-color: rgb(232, 237, 246);
+    border: 3px solid rgb(236, 238, 236);
+    padding: 1.5rem;
+    height: fit-content;
+  }
+
+nav {
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 16pt;
+    text-decoration: none;
+}
+  
+a:link{
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    font-weight: 500;
+}
+  
+a:visited{
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    font-weight: 500;
+}
+  
+a:hover{
+    color: white;
+    background-color: rgb(22, 22, 22);
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+.muted-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Save-time {
+    display: flex;
+    
+
+}
+.Save-time-left {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.Save-time-right {
+    padding-top: 100px;
+    padding-right: 50px;
+    float: right;
+}
+
+.your-benz {
+    display: flex;
+}
+
+.your-benz-left {
+    margin-right: 105px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.your-benz-right {
+    padding-right: 50px;
+    float: right;
+    
+}
+article {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: rgb(22, 22, 22);
+    margin-bottom: 15px;
+}
+
+/* Images, Video, and Audio */
+figure {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    
+}
+
+.about > p{
+    margin-bottom: 20px;
+}
+
+.about-picture {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+}
+
+
+.about-picture-right {
+    padding-left: 220px;
+
+}
+
+figcaption {
+    font-size: 0.7rem;
+    color: #2a2a2a;
+    margin-top: 5px;
+    text-align: center;
+}
+
+video, audio {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.sedan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-class {
+    text-align: center;
+}
+
+.model_audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 237, 246);
+}
+
+.audi {
+    padding-right: 130px;
+}
+.audi p {
+    color: rgb(18, 25, 30);
+}
+#main_audio {
+    float: right;
+    padding-bottom: 15px;
+    
+}
+
+table {
+    border: 1px solid black;
+    width: 500px;
+}
+
+th, td {
+    border: 1px solid black; /* Adds border to table cells */
+    padding: 5px;
+    text-align: left; /* Aligns text to the left */
+}
+.spec_table {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model_bottom {
+    text-align: justify;
+}
+
+.model_bottom > time {
+    font-size: 12px;
+}
+/* Footer */
+footer {
+    background: #444;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
